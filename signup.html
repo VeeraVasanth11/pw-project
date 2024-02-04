@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 95vh;
+            background-color: black;
+        }
+        .container{
+            width: 350px;
+            height: 450px;
+            border: 1px solid;
+            padding-left: 30px;
+            padding-bottom: 20px;
+            background-color: #fff;
+            
+          
+        }
+        input{
+            width: 90%;
+            height: 20px;
+        }
+        select{
+            width: 90%;
+            height: 30px;
+        }
+        button{
+            width: 90%;
+            height: 30px;
+            background-color: black;
+            color: #fff;
+        }
+        .signup{
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      
+        <h1 class="signup">Signup</h1>
+   
+        <label for="name">Name:</label><br>
+        <input type="text" class="name"><br><br>
+        <label for="batch">Batch:</label><br>
+        <select name="batch" id="batch">
+            <option value="sigma1">Sigma 1.0</option>
+            <option value="sigma2">Sigma 2.0</option>
+            <option value="sigma3">Sigma 3.0</option>
+            <option value="sigma4">Sigma 4.0</option>
+        </select><br><br>
+        <label for="age">Age:</label><br>
+        <input type="text" class="age"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="text" class="email"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="text" class="password"><br><br>
+       
+        <button class="sign">Signup</button>
+    
+
+    </div>
+</body>
+</html>
